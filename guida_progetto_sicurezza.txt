@@ -1,0 +1,37 @@
+﻿1. installare wamp o xampp
+
+2. modificare il path di sistema aggiungendo la cartella di installazione di cui al punto 1: per farlo eseguire da command prompt il comando (apportando le opportune modifiche)
+		setx path "%path%;c:\xampp\php\"
+
+3. creare una cartella chiamata "sicurezza" sul disco C
+
+4. copiare dentro la cartella C:\sicurezza l'intera cartella del progetto
+
+5. da command prompt andare nella cartella c:\sicurezza\progettoagid_3
+		php artisan cache:clear
+		php artisan config:cache
+		php artisan key:generate
+		
+6. Ora è necessario cambiare il file ".env" per poter permettere all'applicazione di comunicare con il database prescelto. I punti da cambiare sono i seguenti:
+		-DB_CONNECTION: è il tipo di DBMS che si utilizza
+		-DB_HOST: è l'indirizzo IP del server (di default è localhost)
+		-DB_PORT: è la porta del server su cui è creata la connessione (cambiarla SOLO se è stata modificata quella standard, 3306)
+		-DB_DATABASE: è il nome del DB su cui si vogliono registrare i dati (di default è progettoagid_3)
+		-DB_USERNAME: è l'username con cui si accede alla connessione del server su quel database (di default è root)
+		-DB_PASSWORD: è la password con cui si accede alla connessione del server su quel database (di default non c'è)
+		
+7. creare sul DB un nuovo database denominato "progettoagid_3"
+
+8. eseguire il seguente comando per creare la struttura del database
+		php artisan migrate
+
+9. copiare i dati nel database importandoli dai files di dump messi a disposizione nella cartella "DumpDatabase"
+
+10. eseguire il webserver di laravel col comando
+		php artisan serve
+		
+11 lasciando aperta la shell dos, da un qualsiasi browser web accedere alla pagina localhost:8000 ove si trova l'applicazione installata
+
+12 accedere con il nome utente "sicurezza" e password "sicurezza123"
+
+

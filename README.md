@@ -69,17 +69,17 @@ Questa operazione va ripetuta per tutti i file presenti nella Directory di appog
 
 10. Attivare il Server Web del SW di appoggio LARAVEL digitando nella finestra prompt del DOS il seguente comando:
 
-	    php artisan serve
+		php artisan serve
 
 se il comando va a buon fine comparirà
 
-	    Laravel development server started: <http://127.0.0.1:8000>
+	Laravel development server started: <http://127.0.0.1:8000>
 
 LASCIARE APERTA QUESTA FINESTRA DOS
 
 11. Aprire un Browser al link:
 
-	    http://localhost:8000
+		http://localhost:8000
 
 e si verrà condotti alla pagina:
 

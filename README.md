@@ -52,7 +52,7 @@ Aprirlo con editor di testo per poterlo “EVENTUALMENTE” modificare. Se si so
 
 	   php artisan migrate
 
-Questo genererà la struttura del Data Base. Se a buon fine comparirà la sequenza:
+Questo genererà la struttura del database. Se a buon fine comparirà la sequenza:
 				
 	   Migration table created successfully.
   	   Migrating: 2014_10_12_000000_create_users_table

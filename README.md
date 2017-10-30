@@ -79,7 +79,7 @@ LASCIARE APERTA QUESTA FINESTRA DOS
 
 11. Aprire un Browser al link:
 
-		http://localhost:8000
+	    http://localhost:8000
 
 e si verrà condotti alla pagina:
 

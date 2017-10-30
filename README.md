@@ -6,7 +6,7 @@ A – Scaricare sul PC XAMPP (Prodotto libero) suggeriamo il link: https://www.a
 Nella versione più adatta al PC in dotazione, selezionate la versione con PHP 7.x.x.
 NB. La versione a 32 bit funziona anche su macchine dotate di SO a 64 bit.
 
-B – Scaricare da GitHub il ProgettoAgid_3 <b>solo</b> tramite il pulsante <b>“Clone or download”</b> situato in alto a destra
+B – Scaricare da GitHub il ProgettoAgid_3 <b>solo</b> tramite il pulsante <b>“Clone or download”</b> situato in alto a destra<br>
 <b>NB. NON SCARICARE i file singolarmente in quanto questo determinerà il malfunzionamento dell'applicativo</b>
 
 Istruzioni per l’INSTALLAZIONE

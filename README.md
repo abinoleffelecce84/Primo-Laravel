@@ -81,11 +81,11 @@ LASCIARE APERTA QUESTA FINESTRA DOS
 
 	    http://localhost:8000
 
-e si verrà condotti alla pagina:
+e si verrà condotti alla pagina di login
 
 12. Accedere con il nome utente "sicurezza" e password "sicurezza123" e verificare il riconoscimento e l’apertura del programma.
 
-A questo punto la procedura di caricamento della procedura e’ terminata.
+A questo punto la procedura di caricamento dell'applicazione e’ terminata.
 
 
 

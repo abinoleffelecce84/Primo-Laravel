@@ -3,7 +3,7 @@ Istruzioni di installazione del CRUSCOTTO di GESTIONE Misure SICUREZZA
 Istruzioni per l’ACQUISIZIONE MATERIALE
 
 A – Scaricare sul PC XAMPP (Prodotto libero) suggeriamo il link: https://www.apachefriends.org/download.html
-Nella versione più adatta al PC in dotazione, selezionate la versione con PHP 7.x.x.
+Nella versione più adatta al PC in dotazione, selezionate la versione con PHP 7.x.x.<br>
 NB. La versione a 32 bit funziona anche su macchine dotate di SO a 64 bit.
 
 B – Scaricare da GitHub il ProgettoAgid_3 <b>solo</b> tramite il pulsante <b>“Clone or download”</b> situato in alto a destra<br>
